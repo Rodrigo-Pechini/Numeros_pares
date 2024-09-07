@@ -58,11 +58,15 @@ fazendo uma contagem invertida.
 ***
 ## Cores em python:
 É claro que existem varias formas de utilizar cores em python, mas como eu queria um visual simples apliquei um codigo simples.
-* Vermelho: ``\033[31mSua palavra\033[m``
-* Verde: ``\033[32mSua palavra\033[m``
-* Amarelo: ``\033[33mSua palavra\033[m``
-* Azul: ``\033[34mSua palavra\033[m``
-* Roxo: ``\033[34mSua palavra\033[m``
+* **Vermelho**: ``\033[31mSua palavra\033[m``
+* **Verde**: ``\033[32mSua palavra\033[m``
+* **Amarelo**: ``\033[33mSua palavra\033[m``
+* **Azul**: ``\033[34mSua palavra\033[m``
+* **Roxo**: ``\033[34mSua palavra\033[m``
 Pecebe um padrão, no inicio temos os código ``\033[32m``, no meio um texto e no final outro código ``\033[m``, este no final indica qual o trecho do texto queremos colorir,
 sem ele não teremos essa limitação.
-
+***
+## Pontos a se melhorar:
+Como todo e qualquer código tem pontos que podemos melhorar, no meu caso eu vejo os seguintes pontos:
+* **Tratamento de erros**: Verificar sé a entrada do usuario é um numero ou não, pois nada impede o usuario de colocar seu nome ou qualquer outra palavra.
+* **Validação de entrada**: Adicionadar uma verificação para garantir que o valor inicial seja menor ou igual ao valor final.
