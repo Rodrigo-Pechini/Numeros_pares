@@ -68,9 +68,32 @@ fazendo uma contagem invertida.
 Pecebe um padrão, no inicio temos os código ``\033[32m``, no meio um texto e no final outro código ``\033[m``, este no final indica qual o trecho do texto queremos colorir,
 sem ele não teremos essa limitação.
 ***
+## Tratamento de erros.
+Quando estamos fazendo algum código e testando ele alguns erros podem aparecer e isso é normal, mas podemos utilizar esse erros ao nosso favor.
+
+Um exemplo:
+````
+try:
+ numero = int(input('Digite um numero: '))
+except ValueError:
+ print('Valor invalido.')
+````
+Se a gente digitar algum valor que não seja um ``int``(numero inteiro) o programa voltara um erro de valor e o programa vai finalizar, para não ocorrer isso utilizamos o ``try:`` 
+para tentar realizar o código ``numero = int(input('Digite um numero: '))``, se o usuario digitar alguama palavra por engano o código vai até o except e o executa pois o erro que 
+seria mostrado na tela é o mesmo estabelecido para ele, o código retornara ``Valor invalido.``.
+
+### Sem try:
+
+![Captura de tela 2024-09-09 141600](https://github.com/user-attachments/assets/ee58c535-c923-483d-9e2d-63be5568fbc1)
+## Com try:
+
+![Captura de tela 2024-09-09 141809](https://github.com/user-attachments/assets/80843e24-d0b9-4b72-9073-1786ceedfc94)
+***
 ## Pontos a se melhorar:
 Como todo e qualquer código tem pontos que podemos melhorar, no meu caso eu vejo os seguintes pontos:
 - [x] **Tratamento de erros**: Verificar sé a entrada do usuario é um numero ou não, pois nada impede o usuario de colocar seu nome ou qualquer outra palavra.
 - [x] **Validação de entrada**: Adicionadar uma verificação para garantir que o valor inicial seja menor ou igual ao valor final.
+
+
 
 
