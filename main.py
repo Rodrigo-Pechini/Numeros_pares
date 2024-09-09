@@ -1,6 +1,6 @@
 from time import sleep
 
-print('ENCONTRANDO NUMEROS PARES')
+print('ENCONTRANDO NUMEROS \033[32mPARES\033[m')
 
 inicio = int(input('Digite o inicio da contagem: '))
 fim = int(input('Digite o fim da contagem: '))
