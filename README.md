@@ -6,7 +6,9 @@ Temos duas entradas do usuario, uma para indicar onde vai iniciar o progrma e ou
 
 A saida é todos os numeros, mas os numeros pares são coloridos com verde.
 
-![Captura de tela 2024-09-07 102859](https://github.com/user-attachments/assets/ae3e6977-5290-428e-9447-75c09562ce00)
+![Captura de tela 2024-09-09 112447](https://github.com/user-attachments/assets/cec32124-6829-4943-b457-eef98bf74aa5)
+
+![Captura de tela 2024-09-09 112338](https://github.com/user-attachments/assets/a94e1985-b1c8-4fe2-82f1-012c10e82477)
 ***
 Um programa simples, mas demonstra algumas funcionalidades interessantes em python:
 ## Função renge():
@@ -70,3 +72,5 @@ sem ele não teremos essa limitação.
 Como todo e qualquer código tem pontos que podemos melhorar, no meu caso eu vejo os seguintes pontos:
 - [x] **Tratamento de erros**: Verificar sé a entrada do usuario é um numero ou não, pois nada impede o usuario de colocar seu nome ou qualquer outra palavra.
 - [x] **Validação de entrada**: Adicionadar uma verificação para garantir que o valor inicial seja menor ou igual ao valor final.
+
+
