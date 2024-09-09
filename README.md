@@ -6,6 +6,8 @@ Temos duas entradas do usuario, uma para indicar onde vai iniciar o progrma e ou
 
 A saida é todos os numeros, mas os numeros pares são coloridos com verde.
 
+Para ver o video do código funcionando [clique aqui](https://www.linkedin.com/feed/update/urn:li:ugcPost:7238964659603570688/)
+
 ![Captura de tela 2024-09-09 112447](https://github.com/user-attachments/assets/cec32124-6829-4943-b457-eef98bf74aa5)
 
 ![Captura de tela 2024-09-09 112338](https://github.com/user-attachments/assets/a94e1985-b1c8-4fe2-82f1-012c10e82477)
