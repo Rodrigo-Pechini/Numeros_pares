@@ -68,5 +68,5 @@ sem ele não teremos essa limitação.
 ***
 ## Pontos a se melhorar:
 Como todo e qualquer código tem pontos que podemos melhorar, no meu caso eu vejo os seguintes pontos:
-* **Tratamento de erros**: Verificar sé a entrada do usuario é um numero ou não, pois nada impede o usuario de colocar seu nome ou qualquer outra palavra.
-* **Validação de entrada**: Adicionadar uma verificação para garantir que o valor inicial seja menor ou igual ao valor final.
+- [x] **Tratamento de erros**: Verificar sé a entrada do usuario é um numero ou não, pois nada impede o usuario de colocar seu nome ou qualquer outra palavra.
+- [x] **Validação de entrada**: Adicionadar uma verificação para garantir que o valor inicial seja menor ou igual ao valor final.
